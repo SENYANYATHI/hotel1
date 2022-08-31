@@ -2,7 +2,7 @@
 import React,{useState} from "react";
 import {Link} from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
-import {auth} from './config/firebase'
+import {auth} from '../config/firebase'
 import {signInWithEmailAndPassword} from 'firebase/auth';
 
 
@@ -23,7 +23,7 @@ function SignIn(){
  
      const login =(() => {
         signInWithEmailAndPassword(auth,email,Password).then (() => {
-             history('/Home');
+             history("/home");
          }).catch ((error) => {
              console.log(error);
          })

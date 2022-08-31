@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import {Link} from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
-import {auth} from './config/firebase'
+import {auth} from '../config/firebase'
 import {createUserWithEmailAndPassword} from 'firebase/auth';
 
 
@@ -24,7 +24,7 @@ function SignUp(){
  
      const Register =(() => {
          createUserWithEmailAndPassword(auth,Username,Email,Password,Contact,ConfPassword).then (() => {
-             history('/Home');
+             history("/");
          }).catch ((error) => {
              console.log(error);
          })
@@ -55,7 +55,7 @@ return(
 
             <span>Already Have Account</span>{""}
                 <span>
-                    <Link to="">Click Here</Link>
+                    <Link to="/">Click Here</Link>
                 </span>
                 <br></br>
                 <br></br>
