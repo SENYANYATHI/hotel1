@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  background-color: rgba(212, 137, 51, 0.568);
+  font-family: 'Courier New', Courier, monospace;
+ background-image: url(./images/background.jpeg);
+ background-size: contain;
+ background-position: top;
+ background: cover;
+}
+.Container{
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  height: 900px;
+  align-items: center;
+}
+form {
+  padding: 20em;
+  border-radius: 1em;
+}
+input {
+  width: 400px;
+  height: 30px;
+  border-color: aliceblue;
+  border-radius: 4px solid aliceblue;
+}
+form-container {
+  display: flex;
+  width: 200px;
+
+}
