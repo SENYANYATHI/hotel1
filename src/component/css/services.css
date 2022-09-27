@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.top-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.menu-part {
+    justify-content: space-evenly;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.menu{
+    padding-right: 60px;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 3px solid rgba(100, 100, 100, 0.2);
+}
+a:hover{
+    background-color:rgba(100, 100, 100, 0.2);
+    color: #f76c2f;
+    border-left:3px solid #f76c2f;
+}
+.logo{
+    color: #f76c2f;
+    margin-left: 110px;
+}
+
+
+.content {
+    background: rgba(100, 100, 100, 0.2);
+    width: 100vw;
+    height: 15vw;
+    background-size: cover;
+    text-align: center;
+}
+.content h1{
+    color: #f76c2f;
+    padding-top: 100px;
+    font-size: 4em;
+    text-shadow: 2px 2px 5px grey;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.images img{
+    height: 250px;
+    width: 400px;
+    box-shadow: 5px 5px 5px 0px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.images h3{
+    margin-top: 20px;
+}
+
+.images .underline{
+    height: 6px;
+    background-color: #f76c2f;
+    width: 55px;
+    margin-top: 5px;
+    margin-left: 200px;
+    padding-left: 100px;
+    border-radius: 4px;
+}
+.spa-div{
+    border: 2px solid rgba(100, 100, 100, 0.2);
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    
+    
+}
+
+.spa-div .service-info{
+    padding: 20px 50px;
+}
+
+.other{
+    margin-right: 40px;
+   
+}
+.other span{
+    background-color: rgba(100, 100, 100, 0.2);
+    border-radius: 40px;
+}
+.underline2{
+    display: flex;
+    height: 10px;
+    background-color: #f76c2f;
+    width: 255px;
+    margin-left: 900px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px 0px grey;
+}
+.bottom-images{
+   display: grid;
+   grid-template-columns: 47% 53%;
+}
+.left-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 80px;
+    color: grey;
+    font-size: 1.6em;
+    padding-left: 250px;
+
+}
+.left-info li{
+    padding: 20px;
+    padding-left: 80px;
+    border-right: 1px solid grey;
+}
+.right-info{
+    width: 900px;
+    height: 600px;
+    margin-top: 40px;
+    padding-left: 150px;
+}
+.image{
+    height: 280px;
+    width: 340px;
+    padding: 40px;
+    border-radius: 54px;
+    border-right: 1px solid rgba(100, 100, 100, 0.2);
+}
+.footer{
+    height: 285px;
+}
+
+
+
+
+
+
+
