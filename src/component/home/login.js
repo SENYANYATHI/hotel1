@@ -51,7 +51,7 @@ function SignIn(props){
                 
                     <h1>LOGIN</h1>
                     <div id="input-fields">
-                        <input text="emmail" placeholder="enter email" onChange={(e) => setEmail(e.target.value)}/>
+                        <input text="email" placeholder="enter email" onChange={(e) => setEmail(e.target.value)}/>
                         
                         <input text="password" placeholder="enter your password" onChange={(e) => setPassword(e.target.value)}/>
                         <div className="link">

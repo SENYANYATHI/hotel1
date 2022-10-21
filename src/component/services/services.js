@@ -18,7 +18,7 @@ function Services() {
     return (
         <div className="main-container">
             <div className="top-part">
-                <h1 className="logo">Hopewell's Garden</h1>
+                <h1 className="logo">Garden's Hotel</h1>
                 <div className="menu-part">
                     
                     <a className="menu"><Link to="/">Home</Link></a>
@@ -77,8 +77,8 @@ function Services() {
             <div className="footer">
                 <div className="social">
                 <div className="border"></div>
-                  <div className="twitter-part"><img src={twitter} className="twitter" />Twitter : @Hopewell_s_Garden</div>
-                  <div className="facebook-part"><img src={facebook} className="twitter" />facebook : Hopewell's Garden</div>
+                  <div className="twitter-part"><img src={twitter} className="twitter" />Twitter : @Gardens_Hotel</div>
+                  <div className="facebook-part"><img src={facebook} className="twitter" />facebook : Garden's Hotel</div>
                   {/* <div className="facebook-part"><FontAwesomeIcon icon={faEnvelope} className="email" /><span>Email-Address : Hopewell's Garden</span></div>
                   <div className="facebook-part"><FontAwesomeIcon icon={faPhone} className="phone" /><span>Phone :0672722080 / 0656683604</span></div> */}
                 </div>

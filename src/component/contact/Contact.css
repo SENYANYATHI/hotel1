@@ -59,7 +59,7 @@
   
   input.input-error,
   select.input-error {
-    border-color: #fc8181;
+    border-color:  #4299e1;
   }
   
   button:disabled {

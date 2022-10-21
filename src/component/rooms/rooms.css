@@ -60,13 +60,13 @@
     width: 110px;
     border-radius: 10px;
     border: none;
-    background-color: #f76c2f;
+    background-color:  #4299e1;
     cursor: pointer;
 }
 
 #read-more-btn:hover{
-    color: #f76c2f;
-    border-bottom: 4px solid #f76c2f;
+    color:  #4299e1;
+    border-bottom: 4px solid  #4299e1;
     background-color: rgba(100, 100, 100, 0.2);
     font-weight: bolder;
 }
@@ -75,13 +75,13 @@
    
     border-radius: 10px;
     border: none;
-    background-color: #f76c2f;
+    background-color:  #4299e1;
     cursor: pointer;
 }
 
 #book-btn:hover{
-    color: #f76c2f;
-    border-bottom: 4px solid #f76c2f;
+    color:  #4299e1;
+    border-bottom: 4px solid  #4299e1;
     background-color: rgba(100, 100, 100, 0.2);
     font-weight: bolder;
 }
@@ -105,7 +105,7 @@
 
 .images-div .underline{
     height: 6px;
-    background-color: #f76c2f;
+    background-color:  #4299e1;
     width: 55px;
     margin-top: 5px;
     margin-left: 200px;

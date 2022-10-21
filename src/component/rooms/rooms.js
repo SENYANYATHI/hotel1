@@ -16,7 +16,7 @@ const Rooms = () => {
     return (
         <div className="container">
             <div className="top-part">
-                <h1 className="logo">Hopewell's Garden</h1>
+                <h1 className="logo">Garden's Hotel</h1>
                 <div className='menu-part '>
                 <a className="menu"><Link to="/">Home</Link></a>
                     <a className="menu"><Link to="/About">About Us</Link></a>
@@ -35,8 +35,8 @@ const Rooms = () => {
             
         
             <div className='mid-div'>
-                <p className='info'>You've found the ideal spot if you're looking for useful and inexpensive hotel lodging in Durban.<br></br>
-                    The Hopewell's Gardens provides guests with contemporary, practical, and comfortable lodging at a great bargain.<br></br>
+                <p className='info'>You've found the ideal spot if you're looking for useful and inexpensive hotel lodging in Polokwane.<br></br>
+                    The  Gardens hotel provides guests with contemporary, practical, and comfortable lodging at a great bargain.<br></br>
                     We provide our customers with the ideal amenities to accompany a business, stopover, or short stay vacation in each of our modestly sized rooms.<br></br>
                     Our accommodations have been specifically created so that we can host both business and leisure guests, including singles, couples, and families.<br></br>
                     There are 125 spacious rooms available. You may reserve a room online or by speaking with one of our incredibly helpful experts right away.
@@ -62,7 +62,7 @@ const Rooms = () => {
 
                 <div className="spa_div" >
                     <img src={presidential} alt="" />
-                    <div id='price'>Presidential Suite<span>R2500.00</span></div>
+                    <div id='price'>Presidential Suite<span>R2000.00</span></div>
                     <h3>Presidential</h3>
                     <p id='rooms-info'>
                         The Presidential Suites, which are in a class of their own, are prominently located on the 18th, 19th, and 20th floors and provide the most luxurious amenities, deep bathrooms with city views, and the highest degree of individualized service.
@@ -71,7 +71,7 @@ const Rooms = () => {
 
                 <div className="spa_div" >
                     <img src={single} alt="" />
-                    <div id='price3'>Single <span>R1500.00</span></div>
+                    <div id='price3'>Single <span>R1700.00</span></div>
                     <h3>Single</h3>
                     <p id='rooms-info'>We offer standard double rooms, which are suitable for up to two guests per room.
                        These rooms are ideal for brief stays and offer complete comfort and privacy for both leisure and business guests.

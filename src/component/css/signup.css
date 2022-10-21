@@ -22,7 +22,7 @@
     background-color: rgba(0,0,0,.2);
 }
 .main-container h1{
-    color: #407aaa;
+    color: #43728d;
 }
 .main-container input{
     margin-top: 20px;
@@ -48,7 +48,7 @@
     padding-top: 40px;
 }
 
-#lgnButton{
+#registerButton{
     cursor: pointer;
     border-radius: 10px;
     border: none;
@@ -56,13 +56,7 @@
     height: 5vh;
 }
 
-#lgnButton:hover{
+#registerButton:hover{
     color:  #4299e1;
     
 }
-
-
-
-
-
-

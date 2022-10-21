@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
 import {auth} from '../firebaseConfi/firebaseConfig'
 import {createUserWithEmailAndPassword} from 'firebase/auth';
-
+import "../css/login.css"
 
 function SignUp(props){
 
@@ -81,7 +81,7 @@ return(
                 </span>
                 <br></br>
                 <br></br>
-                < Link to="/" ><button onClick={Register}>SignUp</button></Link>
+                < Link to="/" ><button  onClick={Register}>SignUp</button></Link>
           
 
         </form>

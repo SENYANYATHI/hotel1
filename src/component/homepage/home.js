@@ -77,7 +77,7 @@ const Homepage = (props) => {
             <header className="header" id="header">
                 <div className="head-top">
                     <div className="site-name">
-                        <span>Hopewell's Garden</span>
+                        <span>Garden's Hotel</span>
                         <ul className="navbar">
                     <li className=" #header">
                         <a href="/">Home</a></li>
@@ -110,7 +110,7 @@ const Homepage = (props) => {
             </div>
 
 
-            <div className="book">
+            {/* <div className="book">
                 <form className="book-form">
                     <div className="form-item">
                         <label for="checkin-date">Check In Date:</label>
@@ -143,13 +143,13 @@ const Homepage = (props) => {
                         
                     </div>
                 </form>
-            </div>
+            </div> */}
 
             <section className="services sec-width" id="services">
                 <div className='about'>
                     <h2>About</h2>
-                    <p>Looking for a place to stay in Durban that is both contemporary and reasonably priced? In that case, Hopewell's Garden is a great option for you.<br></br> We offer practical short-term lodging in the bustling city center of KwaZulu-Natal. Make sure to reserve a room at our Award-Winning Express Hotel whether you are visiting Durban for business or pleasure.
-                        Since 2005, the hotel has established itself as a market niche and a top choice for international tourists, NGOs, corporate travelers, and government officials
+                    <p>Looking for a place to stay in Polokwane that is both contemporary and reasonably priced? In that case,  Garden'S Hotel is a great option for you.<br></br> We offer practical short-term lodging in the bustling city center of Limpopo. Make sure to reserve a room at our Award-Winning Express Hotel whether you are visiting Polokwane for business or pleasure.
+                        Since 2009, the hotel has established itself as a market niche and a top choice for international tourists, NGOs, corporate travelers, and government officials
                         After a day spent taking advantage of all that Durban has to offer, our hotel is the perfect place to return to for a restful night's sleep, a delicious breakfast, and a peaceful evening as well as taking advantage of our jacuzzi, swimming pool and our ocean view.</p>
                 </div>
                 <div className="title">
@@ -199,7 +199,7 @@ const Homepage = (props) => {
                         <div className="room-text">
                             <h3>Single Room</h3>
                             <p className="rate">
-                                <span>R650 /</span> Per Night
+                                <span>R600 /</span> Per Night
                             </p>
                         </div>
                     </article>
@@ -211,7 +211,7 @@ const Homepage = (props) => {
                         <div className="room-text">
                             <h3>Single Room</h3>
                             <p className="rate">
-                                <span>R1050 /</span> Per Night
+                                <span>R1000 /</span> Per Night
                             </p>
                         </div>
                     </article>
@@ -223,7 +223,7 @@ const Homepage = (props) => {
                         <div className="room-text">
                             <h3>Single Room</h3>
                             <p className="rate">
-                                <span>R1500 /</span> Per Night
+                                <span>R1700 /</span> Per Night
                             </p>
                         </div>
                     </article>
@@ -256,7 +256,7 @@ const Homepage = (props) => {
                 <span>
                     <i className="fas fa-map-marker-alt"></i>
                     <span>
-                       376 airlie st.Durban, KwaZulu Natal, South Africa
+                       348 Lourie st.Polokwane, Limpopo, South Africa
                     </span>
                 </span>
             </div>
@@ -264,7 +264,7 @@ const Homepage = (props) => {
                 <span>
                     <i className="fas fa-envelope"></i>
                     <span>
-                        hopewellgarden@hotmail.co.za
+                        garden'shotel@hotmail.co.za
                     </span>
                 </span>
             </div>
@@ -272,7 +272,7 @@ const Homepage = (props) => {
                 <span>
                     <i className="fas fa-phone-alt"></i>
                     <span>
-                        (011)325-2022
+                        (011)254-2002
                     </span>
                 </span>
             </div>
